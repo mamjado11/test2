@@ -37,8 +37,8 @@ class _testState extends State<test> {
               onPressed: () {
                 AwesomeDialog(
                   context: context,
-                  dialogType: DialogType.info,
-                  animType: AnimType.rightSlide,
+                  dialogType: DialogType.question,
+                  animType: AnimType.scale,
                   title: 'Dialog Title',
                   desc: 'Dialog description here.............',
                   btnCancelOnPress: () {},
